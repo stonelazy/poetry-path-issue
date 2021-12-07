@@ -1,0 +1,1 @@
+print("/appname/pkg1/sample.py")

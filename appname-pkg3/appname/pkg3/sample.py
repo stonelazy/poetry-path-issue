@@ -1,0 +1,1 @@
+print('/appname-pkg3/appname/pkg3/sample')

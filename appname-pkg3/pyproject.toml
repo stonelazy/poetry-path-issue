@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "appname.pkg3"
+version = "1"
+description = "none"
+authors = ["John Smith <john@example.com>"]
+
+packages = [
+  { include = "appname/**/*.py" } ,
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
